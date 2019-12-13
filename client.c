@@ -1,10 +1,10 @@
-#include<stdio.h>
-#include<string.h>
-#include<sys/socket.h>
-#include<arpa/inet.h>	//function inet_addr : convert IP address
+#include <stdio.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>	//function inet_addr : convert IP address
 #include <unistd.h> //read
 
-int main(int argc , char *argv[])
+int main()//int argc , char *argv[])
 {
 	int socket_desc;
 	struct sockaddr_in server;
