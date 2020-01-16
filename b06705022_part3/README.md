@@ -2,11 +2,20 @@
 * compile file  
 `$ make`  
 or  
-`$ gcc -c server.c`  
-`$ gcc server.o -o server`  
+
+server 端   
+`$ gcc -c server.c -lpthread`   
+`$ gcc server.o -o server -lpthread`  
+client 端    
+`$ gcc -c client.c -lpthread`
+`$ gcc client.o -o client -lpthread`
 
 * executable client  
-`$ ./server`  
+`$ ./client`   
+
+* executable server    
+`$ ./server`   
+
   
 * environment:  
 ubuntu 18.04    
