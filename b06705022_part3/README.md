@@ -3,10 +3,10 @@
 `$ make`  
 or  
 
-server 端   
+* compile server 端   
 `$ gcc -c server.c -lpthread`   
 `$ gcc server.o -o server -lpthread`  
-client 端    
+* compile client 端    
 `$ gcc -c client.c -lpthread`
 `$ gcc client.o -o client -lpthread`
 
