@@ -3,8 +3,8 @@
 ======
 網路技術與應用 作業
 -----
-內容：實作server與多個clients，使用socket聯繫
-此系統包含三大功能。
+> 內容：實作server與多個clients，使用socket聯繫
+> 此系統包含三大功能：
 > 1. 第三方支付Server端對Client端（使用者）的統一管理，包含帳號管理、認證以及Client帳戶管理等。
 > 2. Client間即時通訊
 > 3. Client與Server以及Client間的通訊
