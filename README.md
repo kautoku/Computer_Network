@@ -10,6 +10,8 @@
 > 3. Client與Server以及Client間的通訊
 
 
+How to use
+-----
 * compile file  
 `$ make`  
 or  
